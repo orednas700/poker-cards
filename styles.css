@@ -3,20 +3,13 @@ body {
   background-color: rgb(43, 43, 43);
 }
 
-h1 {
-  text-align: center;
-  color: black;
-  border-radius: 6px;
-  background-color: white;
-}
-
 #playing-cards {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
   justify-content: center;
   align-items: stretch;
-  height: 180px;
+  height: 100px;
   width: 100%;
 }
 
@@ -25,7 +18,7 @@ h1 {
   justify-content: space-between;
   align-items: stretch;
   border-radius: 10px;
-  width: 100px;
+  width: 80px;
   background-color: white;
   padding: 0 4px;
   transition: transform .10s;
